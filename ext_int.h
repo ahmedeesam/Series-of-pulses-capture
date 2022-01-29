@@ -11,8 +11,9 @@
 #define EXT_INT_H_
 
 
-void int0_init();
+void int0_START();
+void int0_STOP();
 void int1_init();
-
+void int1_STOP();
 
 #endif /* EXT_INT_H_ */

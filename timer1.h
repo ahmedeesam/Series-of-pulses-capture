@@ -16,9 +16,14 @@
 
 void start_tim1_normal();
 int  read_tim1();
+void start_tim1_ICR();
+void start_tim1_ICF();
+int  read_IC_register();
 void start_tim1_ctc(int q);
 void see_compare();
-void tim1_interrupt_init();
+void tim1_OVinterrupt_init();
+void tim1_ICinterrupt_START();
+void tim1_ICinterrupt_STOP();
 
 
 #endif /* TIMER1_H_ */
